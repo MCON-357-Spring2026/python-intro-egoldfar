@@ -1,8 +1,15 @@
-"""
-TODO:
-1. Print numbers from 1 to 10
-2. Print even numbers from 1 to 20
-3. Calculate the sum of numbers from 1 to 100
-4. Print the multiplication table of 5
 
-"""
+for i in range(1, 11):
+    print(i)
+for i in range(2, 21, 2):
+    print(i)
+
+num = 0
+
+for i in range(1, 101):
+    num += i
+
+print(num)
+
+for i in range(13):
+    print(str(i)  + " * 5 = " + str(i*5))
